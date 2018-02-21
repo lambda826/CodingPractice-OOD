@@ -4,7 +4,7 @@ import design_pattern.behavioral.strategy.demo2.fly.FlyNoWay;
 import design_pattern.behavioral.strategy.demo2.quack.Quack;
 
 public class ModelDuck extends Duck {
-    
+
     public ModelDuck() {
         flyBehavior = new FlyNoWay();
         quackBehavior = new Quack();

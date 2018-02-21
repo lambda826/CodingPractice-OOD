@@ -20,7 +20,7 @@ public class MiniDuckSimulator {
         decoy.performQuack();
 
         Duck model = new ModelDuck();
-        
+
         model.performFly();
         model.setFlyBehavior(new FlyRocketPowered());
         model.performFly();

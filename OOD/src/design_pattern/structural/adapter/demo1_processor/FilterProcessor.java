@@ -14,7 +14,7 @@ import design_pattern.behavioral.strategy.demo3_processor.usingInterfaceInsteadO
 import design_pattern.behavioral.strategy.demo3_processor.usingInterfaceInsteadOfClass.Processor;
 
 class FilterAdapter implements Processor {
-    
+
     Filter filter;
 
     public FilterAdapter(Filter filter) {

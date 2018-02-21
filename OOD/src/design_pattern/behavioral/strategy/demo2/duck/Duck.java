@@ -4,7 +4,7 @@ import design_pattern.behavioral.strategy.demo2.fly.FlyBehavior;
 import design_pattern.behavioral.strategy.demo2.quack.QuackBehavior;
 
 public abstract class Duck {
-    
+
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
