@@ -3,7 +3,7 @@
  *  @date    Feb 10, 2018 10:46:06 PM
  */
 
-package design_pattern.creational.factoryMethod.demo2;
+package design_pattern.creational.factoryMethod;
 
 interface Game {
     boolean move();
