@@ -3,7 +3,7 @@
  *  @date    Feb 1, 2018 8:11:57 AM
  */
 
-package design_pattern.behavioral.template;
+package design_pattern.behavioral.template._04_demo;
 
 public class Cricket extends Game {
 

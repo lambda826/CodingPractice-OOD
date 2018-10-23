@@ -3,7 +3,7 @@
  *  @date    Feb 1, 2018 8:10:43 AM
  */
 
-package design_pattern.behavioral.template;
+package design_pattern.behavioral.template._04_demo;
 
 public abstract class Game {
 

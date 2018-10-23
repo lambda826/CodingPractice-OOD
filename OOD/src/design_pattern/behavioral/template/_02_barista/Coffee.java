@@ -1,4 +1,4 @@
-package design_pattern.behavioral.template.barista;
+package design_pattern.behavioral.template._02_barista;
 
 public class Coffee extends CaffeineBeverage {
     

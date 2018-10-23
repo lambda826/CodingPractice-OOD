@@ -3,7 +3,7 @@
  *  @date    Feb 1, 2018 8:13:03 AM
  */
 
-package design_pattern.behavioral.template;
+package design_pattern.behavioral.template._04_demo;
 
 public class Footbal extends Game {
 
