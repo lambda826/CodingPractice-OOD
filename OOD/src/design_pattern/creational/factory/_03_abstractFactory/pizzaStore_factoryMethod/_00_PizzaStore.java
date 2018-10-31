@@ -7,7 +7,7 @@ public abstract class _00_PizzaStore {
     // Abstract method
     // Factory method
     abstract _00_Pizza createPizza(String item);
-    
+
     // All subclasses make use of the orderPizza() method defined n PizzaStore
     // We could make the orderPizza() method final if we really wanted to enforce this
     public final _00_Pizza orderPizza(String type) {

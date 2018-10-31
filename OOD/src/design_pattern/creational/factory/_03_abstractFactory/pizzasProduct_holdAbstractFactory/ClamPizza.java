@@ -3,7 +3,7 @@ package design_pattern.creational.factory._03_abstractFactory.pizzasProduct_hold
 import design_pattern.creational.factory._03_abstractFactory.ingredientFactory_abstractFactory._00_Pizza_Ingredient_AbstractFactory;
 
 public class ClamPizza extends _00_Pizza {
-    
+
     _00_Pizza_Ingredient_AbstractFactory ingredientFactory;
 
     public ClamPizza(_00_Pizza_Ingredient_AbstractFactory ingredientFactory) {

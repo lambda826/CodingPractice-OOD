@@ -1,6 +1,5 @@
 package design_pattern.structural.adapter.processor;
 
-
 public class _110_Apply {
 
     public static void process(_109_Processor p, Object s) {

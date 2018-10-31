@@ -1,7 +1,7 @@
 package design_pattern.structural.adapter.processor;
 
 class FilterAdapter implements _109_Processor {
-    
+
     _105_Filter filter;
 
     public FilterAdapter(_105_Filter filter) {

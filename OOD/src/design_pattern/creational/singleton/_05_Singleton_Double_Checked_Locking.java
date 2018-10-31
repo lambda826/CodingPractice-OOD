@@ -1,8 +1,7 @@
 package design_pattern.creational.singleton;
 
 public class _05_Singleton_Double_Checked_Locking {
-    
-    
+
     // The volatile keyword ensures that multiple threads handle the uniqueInstance variable correctly when it is being initialized to the Singleton instance
     private volatile static _05_Singleton_Double_Checked_Locking uniqueInstance;
 

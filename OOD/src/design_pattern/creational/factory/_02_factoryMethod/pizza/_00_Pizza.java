@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 // Abstract or non-abstract
 public abstract class _00_Pizza {
-    
+
     public String name;
     public String dough;
     public String sauce;

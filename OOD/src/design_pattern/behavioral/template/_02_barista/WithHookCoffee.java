@@ -22,7 +22,7 @@ public class WithHookCoffee extends WithHookCaffeineBeverage {
     }
 
     private String getUserInput() {
-        
+
         String answer = null;
 
         System.out.print("Would you like milk and sugar with your coffee (y/n)? ");

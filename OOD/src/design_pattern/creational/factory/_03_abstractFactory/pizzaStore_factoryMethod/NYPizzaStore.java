@@ -11,10 +11,10 @@ import design_pattern.creational.factory._03_abstractFactory.pizzasProduct_holdA
 public class NYPizzaStore extends _00_PizzaStore {
 
     protected _00_Pizza createPizza(String item) {
-        
+
         _00_Pizza pizza = null;
         _00_Pizza_Ingredient_AbstractFactory ingredientFactory = new NY_Pizza_Ingredient_ConcreteFactory();
-        
+
         if (item.equals("cheese")) {
             pizza = new CheesePizza(ingredientFactory);
             pizza.setName("New York Style Cheese Pizza");

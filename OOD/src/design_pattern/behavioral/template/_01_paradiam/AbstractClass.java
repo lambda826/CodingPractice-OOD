@@ -6,7 +6,7 @@
 package design_pattern.behavioral.template._01_paradiam;
 
 public abstract class AbstractClass {
-    
+
     final void templateMethod() {
         primitiveOperation1();
         primitiveOperation2();

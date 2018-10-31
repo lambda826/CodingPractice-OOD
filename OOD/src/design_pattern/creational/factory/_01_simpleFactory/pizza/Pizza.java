@@ -3,7 +3,7 @@ package design_pattern.creational.factory._01_simpleFactory.pizza;
 import java.util.ArrayList;
 
 abstract public class Pizza {
-    
+
     String name;
     String dough;
     String sauce;
