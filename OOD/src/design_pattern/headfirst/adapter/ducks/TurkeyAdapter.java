@@ -1,6 +1,6 @@
 package headfirst.adapter.ducks;
 
-public class TurkeyAdapter implements Duck {
+public class TurkeyAdapter implements _Duck {
     Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {

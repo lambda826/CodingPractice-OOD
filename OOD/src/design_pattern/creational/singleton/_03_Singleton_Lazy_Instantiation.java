@@ -1,6 +1,7 @@
 package design_pattern.creational.singleton;
 
 public class _03_Singleton_Lazy_Instantiation {
+    
     private static _03_Singleton_Lazy_Instantiation uniqueInstance;
 
     // Other useful instance variables here

@@ -1,6 +1,6 @@
 package headfirst.strategy;
 
-public class RedHeadDuck extends Duck {
+public class RedHeadDuck extends _Duck {
 
     public RedHeadDuck() {
         flyBehavior = new FlyWithWings();

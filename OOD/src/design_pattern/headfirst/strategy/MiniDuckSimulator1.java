@@ -4,11 +4,11 @@ public class MiniDuckSimulator1 {
 
     public static void main(String[] args) {
 
-        Duck mallard = new MallardDuck();
+        _Duck mallard = new MallardDuck();
         mallard.performQuack();
         mallard.performFly();
 
-        Duck model = new ModelDuck();
+        _Duck model = new ModelDuck();
         model.performFly();
         model.setFlyBehavior(new FlyRocketPowered());
         model.performFly();

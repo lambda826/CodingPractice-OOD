@@ -5,7 +5,7 @@ public class DuckTestDrive {
         MallardDuck duck = new MallardDuck();
 
         WildTurkey turkey = new WildTurkey();
-        Duck turkeyAdapter = new TurkeyAdapter(turkey);
+        _Duck turkeyAdapter = new TurkeyAdapter(turkey);
 
         System.out.println("The Turkey says...");
         turkey.gobble();
@@ -18,7 +18,7 @@ public class DuckTestDrive {
         testDuck(turkeyAdapter);
     }
 
-    static void testDuck(Duck duck) {
+    static void testDuck(_Duck duck) {
         duck.quack();
         duck.fly();
     }

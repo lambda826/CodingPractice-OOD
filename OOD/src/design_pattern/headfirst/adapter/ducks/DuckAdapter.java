@@ -3,10 +3,10 @@ package headfirst.adapter.ducks;
 import java.util.Random;
 
 public class DuckAdapter implements Turkey {
-    Duck duck;
+    _Duck duck;
     Random rand;
 
-    public DuckAdapter(Duck duck) {
+    public DuckAdapter(_Duck duck) {
         this.duck = duck;
         rand = new Random();
     }

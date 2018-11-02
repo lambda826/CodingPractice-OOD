@@ -1,6 +1,6 @@
 package headfirst.strategy;
 
-public class MallardDuck extends Duck {
+public class MallardDuck extends _Duck {
 
     public MallardDuck() {
 

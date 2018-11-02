@@ -1,6 +1,6 @@
 package headfirst.strategy;
 
-public class DecoyDuck extends Duck {
+public class DecoyDuck extends _Duck {
     public DecoyDuck() {
         setFlyBehavior(new FlyNoWay());
         setQuackBehavior(new MuteQuack());

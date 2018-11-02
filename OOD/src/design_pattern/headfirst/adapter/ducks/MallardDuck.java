@@ -1,6 +1,6 @@
 package headfirst.adapter.ducks;
 
-public class MallardDuck implements Duck {
+public class MallardDuck implements _Duck {
     public void quack() {
         System.out.println("Quack");
     }

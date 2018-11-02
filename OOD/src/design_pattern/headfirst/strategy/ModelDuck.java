@@ -1,6 +1,6 @@
 package headfirst.strategy;
 
-public class ModelDuck extends Duck {
+public class ModelDuck extends _Duck {
     public ModelDuck() {
         flyBehavior = new FlyNoWay();
         quackBehavior = new Quack();
