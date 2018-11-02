@@ -10,6 +10,7 @@ public class _08_EnumSingleton {
     private _08_EnumSingleton() {
     }
 
+    // Public access point
     public static _08_EnumSingleton getInstance() {
         return Singleton.INSTANCE.getInstance();
     }
@@ -20,7 +21,7 @@ public class _08_EnumSingleton {
 
         private _08_EnumSingleton singleton;
 
-        //JVM会保证此方法绝对只调用一次
+        // Invoke only once
         private Singleton() {
             singleton = new _08_EnumSingleton();
         }

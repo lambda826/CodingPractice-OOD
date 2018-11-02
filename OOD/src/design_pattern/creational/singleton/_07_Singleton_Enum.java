@@ -6,9 +6,29 @@ package design_pattern.creational.singleton;
 
 // Best approach
 // Support auto seralization, protect from multiple instantiation
-public enum _07_Singleton_Enum {
+public class _07_Singleton_Enum {
 
-    INSTANCE;
-    public void whateverMethod() {
+    public static void main(String[] args) {
+        Sgt.SINGLETON.whateverMethod();
     }
+}
+
+enum Sgt {
+
+    SINGLETON;
+
+    private int field;
+
+    public void whateverMethod() {
+
+    }
+
+    public int getField() {
+        return field;
+    }
+
+    public void setField(int field) {
+        this.field = field;
+    }
+
 }
