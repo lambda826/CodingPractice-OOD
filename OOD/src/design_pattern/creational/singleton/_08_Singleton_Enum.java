@@ -5,13 +5,13 @@
 
 package design_pattern.creational.singleton;
 
-public class _08_EnumSingleton {
+public class _08_Singleton_Enum {
 
-    private _08_EnumSingleton() {
+    private _08_Singleton_Enum() {
     }
 
     // Public access point
-    public static _08_EnumSingleton getInstance() {
+    public static _08_Singleton_Enum getInstance() {
         return Singleton.INSTANCE.getInstance();
     }
 
@@ -19,14 +19,14 @@ public class _08_EnumSingleton {
         
         INSTANCE;
 
-        private _08_EnumSingleton singleton;
+        private _08_Singleton_Enum singleton;
 
         // Invoke only once
         private Singleton() {
-            singleton = new _08_EnumSingleton();
+            singleton = new _08_Singleton_Enum();
         }
 
-        public _08_EnumSingleton getInstance() {
+        public _08_Singleton_Enum getInstance() {
             return singleton;
         }
     }
