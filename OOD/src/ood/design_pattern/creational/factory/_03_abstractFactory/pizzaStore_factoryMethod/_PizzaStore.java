@@ -1,6 +1,5 @@
 package ood.design_pattern.creational.factory._03_abstractFactory.pizzaStore_factoryMethod;
 
-import ood.design_pattern.creational.factory._03_abstractFactory.ingredient_AbstractFactory._Pizza_Ingredient_AbstractFactory;
 import ood.design_pattern.creational.factory._03_abstractFactory.pizzasProduct_holdAbstractFactory._Pizza;
 
 public abstract class _PizzaStore {
