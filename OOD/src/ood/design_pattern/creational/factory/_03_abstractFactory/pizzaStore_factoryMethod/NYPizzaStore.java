@@ -1,5 +1,7 @@
 package ood.design_pattern.creational.factory._03_abstractFactory.pizzaStore_factoryMethod;
 
+import java.util.Arrays;
+
 import ood.design_pattern.creational.factory._03_abstractFactory.ingredient_AbstractFactory.NY_Pizza_Ingredient_ConcreteFactory;
 import ood.design_pattern.creational.factory._03_abstractFactory.ingredient_AbstractFactory._Pizza_Ingredient_AbstractFactory;
 import ood.design_pattern.creational.factory._03_abstractFactory.pizzasProduct_holdAbstractFactory.CheesePizza;
@@ -29,5 +31,11 @@ public class NYPizzaStore extends _PizzaStore {
             pizza.setName("New York Style Pepperoni Pizza");
         }
         return pizza;
+    }
+
+    public static void main(String[] args) {
+        int x = 0;
+        int[] p = new int[] { ++x, ++x };
+        System.out.println(Arrays.toString(p));
     }
 }
