@@ -1,4 +1,4 @@
-package ood.design_pattern.creational.singleton;
+package ood.design_pattern.singleton;
 
 public class _03_Singleton_Lazy_Instantiation {
     

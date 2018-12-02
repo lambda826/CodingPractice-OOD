@@ -2,7 +2,7 @@
  *  @author  Yunxiang He
  *  @date    Nov 25, 2017 1:34:52 AM
  */
-package ood.design_pattern.creational.singleton;
+package ood.design_pattern.singleton;
 
 // Best approach
 // Support auto seralization, protect from multiple instantiation

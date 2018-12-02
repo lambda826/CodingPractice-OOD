@@ -3,7 +3,7 @@
  *  @date    2018-11-02 03:58
  */
 
-package ood.design_pattern.creational.singleton;
+package ood.design_pattern.singleton;
 
 public class _08_Singleton_Enum {
 

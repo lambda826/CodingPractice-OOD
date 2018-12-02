@@ -1,4 +1,4 @@
-package ood.design_pattern.creational.singleton;
+package ood.design_pattern.singleton;
 
 // NOTE: This is not thread safe!
 public class _01_Singleton_Classic {
