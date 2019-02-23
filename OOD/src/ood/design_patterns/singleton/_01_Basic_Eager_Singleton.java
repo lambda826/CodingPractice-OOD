@@ -53,11 +53,12 @@ public class _01_Basic_Eager_Singleton implements Serializable {
         }
         return null;
     }
+
     // Required for correct serialization
     // ReadResolve is used for _replacing_ the object read from the stream
-    //    protected Object readResolve() {
-    //        return INSTANCE;
-    //    }
+    protected Object readResolve() {
+        return INSTANCE;
+    }
 
     public static void main(String[] args) throws NoSuchMethodException, SecurityException, InstantiationException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
 
