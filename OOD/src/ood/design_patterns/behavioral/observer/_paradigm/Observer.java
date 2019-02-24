@@ -1,6 +1,6 @@
 /**
- *  @author  Yunxiang He
- *  @date    2018-11-02 04:25
+ *  @author Yunxiang He
+ *  @date   2018-11-02 04:25
  */
 
 package ood.design_patterns.behavioral.observer._paradigm;
